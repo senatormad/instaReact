@@ -2,8 +2,8 @@
 
 This is a React code for fetching your images from new instagram api. In directory /shared two files are meant for changing:
 
-  - In urlParams.js is set a variable for short or long term ACCESS TOKEN and it's possible to pick what fields are going to be fetched;
-  - In imgParams.js are values for the number of pics per row and pics size for different screen sizes (bootstrap grid sizes);
+-   In urlParams.js is set a variable for short or long term ACCESS TOKEN and it's possible to pick what fields are going to be fetched;
+-   In imgParams.js are values for the number of pics per row and pics size for different screen sizes (bootstrap grid sizes);
 
 Anyway, this project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
