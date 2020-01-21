@@ -1,5 +1,6 @@
 import React from 'react';
 import { imgStyle } from './styles';
+import PropTypes from 'prop-types';
 
 const ImgOrVid = props => {
     return (
@@ -10,5 +11,9 @@ const ImgOrVid = props => {
                 : <div></div>
     )
 }
+
+ImgOrVid.propTypes = {
+    img: PropTypes.object
+};
 
 export default ImgOrVid;

@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Carousel, CarouselItem, CarouselControl} from 'reactstrap';
 import ImgOrVid from './ImgOrVid';
+import PropTypes from 'prop-types';
+
 
 const CarouselAlbum = props => {
     const [activeIndex, setActiveIndex] = useState(0);
@@ -42,5 +44,9 @@ const CarouselAlbum = props => {
     )
 
 }
+
+CarouselAlbum.propTypes = {
+    carouselAlbum: PropTypes.object
+};
 
 export default CarouselAlbum;

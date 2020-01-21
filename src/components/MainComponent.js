@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Gallery from './Gallery';
 import { connect } from 'react-redux';
 import { fetchGallery } from '../redux/ActionCreators';
-
+import PropTypes from 'prop-types';
 
 const mapStateToProps = state => {
     return {
@@ -18,10 +18,7 @@ const mapDispatchToProps = dispatch => ({
 class Main extends Component {
 
     componentDidMount() {
-
-        this.props.fetchGallery();
-
-        
+            this.props.fetchGallery();
     }
 
 
@@ -31,5 +28,10 @@ class Main extends Component {
         );
     }
 }
+
+Main.propTypes = {
+    fetchGallery: PropTypes.func,
+    gallery: PropTypes.object
+};
 
 export default connect(mapStateToProps, mapDispatchToProps)(Main);

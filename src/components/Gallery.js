@@ -5,6 +5,7 @@ import { Fade } from 'reactstrap';
 import CarouselAlbum from './CarouselAlbum';
 import ImgOrVid from './ImgOrVid';
 import { cardBodyStyle, cardHoverBodyStyle } from './styles';
+import PropTypes from 'prop-types';
 
 class ImageDiv extends Component {
     constructor(props) {
@@ -70,7 +71,7 @@ const Gallery = (props) => {
                 </div>
                 <div className="row">
                     {props.gallery.gallery.data.map(image => {
-                        return <ImageDiv image={image} key={image.id} />;
+                            return <ImageDiv image={image} key={image.id} />;
                     })}
                 </div>
             </div>
@@ -79,5 +80,13 @@ const Gallery = (props) => {
         return <div></div>
     }
 }
+
+ImageDiv.propTypes = {
+    image: PropTypes.object
+};
+
+Gallery.propTypes = {
+    gallery: PropTypes.object
+};
 
 export default Gallery;
