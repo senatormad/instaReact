@@ -2,8 +2,8 @@
 
 This is a React code for fetching your images from new instagram api. In directory /shared two files are meant for changing:
 
-- In urlParams.js is set a variable for short or long term ACCESS TOKEN and it's possible to pick what fields are going to be fetched;
-- In imgParams.js are values for the number of pics per row and pics size for different screen sizes (bootstrap grid sizes);
+  - In urlParams.js is set a variable for short or long term ACCESS TOKEN and it's possible to pick what fields are going to be fetched;
+  - In imgParams.js are values for the number of pics per row and pics size for different screen sizes (bootstrap grid sizes);
 
 Anyway, this project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -52,24 +52,24 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+This section has moved here: <https://facebook.github.io/create-react-app/docs/code-splitting>
 
 ### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+This section has moved here: <https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size>
 
 ### Making a Progressive Web App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+This section has moved here: <https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app>
 
 ### Advanced Configuration
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+This section has moved here: <https://facebook.github.io/create-react-app/docs/advanced-configuration>
 
 ### Deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+This section has moved here: <https://facebook.github.io/create-react-app/docs/deployment>
 
 ### `yarn build` fails to minify
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+This section has moved here: <https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify>
