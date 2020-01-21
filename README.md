@@ -1,5 +1,7 @@
 ## instaReact
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1a6d87ea69c54d8da23e5bfee0d8bcdd)](https://app.codacy.com/manual/senator.mad/instaReact?utm_source=github.com&utm_medium=referral&utm_content=senatormad/instaReact&utm_campaign=Badge_Grade_Dashboard)
+
 This is a React code for fetching your images from new instagram api. In directory /shared two files are meant for changing:
 
 -   In urlParams.js is set a variable for short or long term ACCESS TOKEN and it's possible to pick what fields are going to be fetched;
