@@ -45,4 +45,4 @@ $ yarn start
 
 ### License
 ___
-[MIT License](https://github.com/senatormad/imageBoardServer/blob/master/LICENSE)
+[MIT License](https://github.com/senatormad/instaReact/blob/master/LICENSE)
