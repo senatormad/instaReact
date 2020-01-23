@@ -25,22 +25,21 @@ To use or/and test this app, you have to install NodeJS and yarn on your machine
 ___
 
 *   Clone this repository:
-```
+```shell
 $ git clone https://github.com/senatormad/instaReact
 ```
 *   Go into the repository:
-```
+```shell
 $ cd instaReact/
 ```
 *   Install dependencies:
-```
+```shell
 $ yarn install
 ```
 *   Next, it's mandatory to set Instagram ACCESS TOKEN in `shared/urlParams.js`. In this file, it's also possible to set fields that are going to be fetched from the Instagram API. Check this [link](https://developers.facebook.com/docs/instagram-api/reference/media/) to see what other fields can be fetched.
 *   In `shared/imgParams.js` are values for the number of pictures per row and picture sizes for different screen sizes (bootstrap grid sizes).
-
 *   And now you can start app:
-```
+```shell
 $ yarn start
 ```
 
