@@ -1,5 +1,3 @@
-import { imgHeight } from '../shared/imgParams';
-
 export const cardBodyStyle = {
     position: 'absolute',
     bottom: 0,
@@ -28,6 +26,5 @@ export const cardHoverBodyStyle = {
 }
 
 export const imgStyle = {
-    height: imgHeight,
     objectFit: 'cover'
 }

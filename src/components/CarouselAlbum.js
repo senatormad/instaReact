@@ -33,7 +33,7 @@ const CarouselAlbum = props => {
                         onExited={() => setAnimating(false)}
                         key={carouselImage.id}
                     >
-                        <ImgOrVid img={carouselImage} />
+                        <ImgOrVid img={carouselImage} imgStyle={props.imgStyle} />
         
                     </CarouselItem>
                 )
@@ -46,7 +46,8 @@ const CarouselAlbum = props => {
 }
 
 CarouselAlbum.propTypes = {
-    carouselAlbum: PropTypes.object
+    carouselAlbum: PropTypes.object,
+    imgStyle: PropTypes.object
 };
 
 export default CarouselAlbum;

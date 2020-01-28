@@ -1,22 +1,15 @@
-let cols;
-let imgs;
+export const colNr = {
+    xs: 12,
+    sm: 12,
+    md: 6,
+    lg: 6,
+    xl: 4
+};
 
-if(window.innerWidth <= 576) {
-    cols = 12;
-    imgs = "300px";
-} else if(window.innerWidth > 576 && window.innerWidth <= 768) {
-    cols = 12;
-    imgs = "300px";
-} else if(window.innerWidth > 768 && window.innerWidth <= 992) {
-    cols = 6;
-    imgs = "300px";
-} else if(window.innerWidth > 992 && window.innerWidth <= 1200) {
-    cols = 6;
-    imgs = "300px";
-} else {
-    cols = 4;
-    imgs = "400px";
-}
-
-export const colNr = cols;
-export const imgHeight = imgs;
+export const imgHeight = {
+    xs: "300px",
+    sm: "300px",
+    md: "300px",
+    lg: "300px",
+    xl: "400px"
+};
